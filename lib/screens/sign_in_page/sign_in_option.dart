@@ -43,7 +43,7 @@ class SignInOption extends StatelessWidget {
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.bold,
-                color: Color(0xff009000),
+                color: Color(0xff00897b),
               ),
             ),
           ),

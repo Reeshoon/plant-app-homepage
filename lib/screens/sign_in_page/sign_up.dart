@@ -13,7 +13,7 @@ class SignUp extends StatelessWidget {
           "Sign up with",
           style: TextStyle(
             fontSize: 20,
-            color: Color(0xff009000),
+            color: Color(0xff00897b),
             height: 2,
           ),
         ),
@@ -23,7 +23,7 @@ class SignUp extends StatelessWidget {
           style: TextStyle(
             fontSize: 36,
             fontWeight: FontWeight.bold,
-            color: Color(0xff009000),
+            color: Color(0xff00897b),
             height: 1,
             letterSpacing: 2,
           ),
@@ -168,13 +168,13 @@ class SignUp extends StatelessWidget {
         Container(
           height: 36,
           decoration: BoxDecoration(
-            color: Color(0xff008000),
+            color: Color(0xff00897b),
             borderRadius: BorderRadius.all(
               Radius.circular(25),
             ),
             boxShadow: [
               BoxShadow(
-                color: Color(0xff008000).withOpacity(0.2),
+                color: Color(0xff00897b).withOpacity(0.2),
                 spreadRadius: 3,
                 blurRadius: 4,
                 offset: Offset(0, 3),
@@ -207,7 +207,7 @@ class SignUp extends StatelessWidget {
           textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: 20,
-            color: Color(0xff009000),
+            color: Color(0xff00897b),
             height: 1,
           ),
         ),
@@ -223,7 +223,7 @@ class SignUp extends StatelessWidget {
             Icon(
               Entypo.facebook_with_circle,
               size: 32,
-              color: Color(0xff008000),
+              color: Color(0xff00897b),
             ),
 
             SizedBox(
@@ -233,7 +233,7 @@ class SignUp extends StatelessWidget {
             Icon(
               Entypo.google__with_circle,
               size: 32,
-              color: Color(0xff008000),
+              color: Color(0xff00897b),
             ),
 
             SizedBox(
@@ -243,7 +243,7 @@ class SignUp extends StatelessWidget {
             Icon(
               Entypo.linkedin_with_circle,
               size: 32,
-              color: Color(0xff008000),
+              color: Color(0xff00897b),
             ),
 
           ],

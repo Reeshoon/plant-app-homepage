@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plant_app/constants.dart';
 import 'sign_in.dart';
 import 'sign_up.dart';
 import 'sign_in_option.dart';
@@ -93,7 +94,7 @@ class CurvePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size){
     var paint = Paint();
-    paint.color = Color(0xff007000);
+    paint.color = kPrimaryColor;
     paint.style = PaintingStyle.fill;
 
     Path path = Path();

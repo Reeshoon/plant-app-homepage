@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:plant_app/screens/home/home_screen.dart';
+import 'package:plant_app/constants.dart';
+
 
 class SignIn extends StatelessWidget {
   @override
@@ -58,7 +60,7 @@ class SignIn extends StatelessWidget {
                 )
             ),
             filled: true,
-            fillColor: Color(0xff008b00),
+            fillColor: Color(0xff00897b),
             contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 0,),
           ),
         ),
@@ -85,7 +87,7 @@ class SignIn extends StatelessWidget {
                 )
             ),
             filled: true,
-            fillColor: Color(0xff008b00),
+            fillColor: Color(0xff00897b),
             contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 0,),
           ),
         ),
@@ -138,7 +140,7 @@ class SignIn extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
-                  color: Color(0xff009000),
+                  color: Color(0xff00897b),
                 ),
               ),
             ),
